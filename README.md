@@ -28,7 +28,7 @@ Here are some of the projects I've worked on:
 
 ## Let's Connect
 
-I'm always open to connecting with like-minded professionals. If you'd like to collaborate or discuss [Your Field], please feel free to reach out:
+I'm always open to connecting with like-minded professionals. If you'd like to collaborate or discuss certain topics, please feel free to reach out:
 
 - 📧 Email: [jadeyn.fincher@gmail.com]
 
