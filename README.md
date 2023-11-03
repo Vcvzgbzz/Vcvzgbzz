@@ -1,42 +1,35 @@
-# Hi there! 👋
+# Hello, I'm Jadeyn Fincher 👋
 
-I'm [Your Name], a [Your Title] from [Your Location]. Welcome to my GitHub profile! 
+I'm a Frontend Developer with a passion for being the best in what I do. Welcome to my GitHub profile.
 
 ## About Me
 
-- 🔭 I'm currently working on [Current Project or Interests].
-- 🌱 I'm always learning and exploring new technologies and ideas.
-- 👯 I'm looking to collaborate on open source projects or interesting side projects.
-- 💬 Ask me about [Topics you're knowledgeable about].
-- 📫 How to reach me: [Your Email], [LinkedIn](https://www.linkedin.com/in/yourusername), [Twitter](https://twitter.com/yourusername).
-- 😄 Pronouns: [Your Pronouns, e.g., He/Him, She/Her, They/Them].
-- ⚡ Fun fact: [Share a fun or interesting fact about yourself].
+- 🔬 I'm dedicated to continuous learning and exploration, particularly in the field of different software development technologies.
+- 📫 You can reach me via email at jadeyn.fincher@gmail.com.
+- 💼 View my professional journey on [LinkedIn](https://www.linkedin.com/in/jadeyn-fincher).
 
-## Tech Stack
+## Expertise
 
-- Languages: [List the programming languages you're proficient in].
-- Frameworks: [List any frameworks you're experienced with].
-- Tools: [Mention the tools or software you commonly use].
-- Databases: [Specify the databases you work with].
+- 💻 Proficient in a range of programming languages including Typescript, Java, and Python.
+- 🛠️ Experienced with Ract.JS, Yarn, npm, and MobX.
 
 ## Projects
 
-- [Project 1](https://github.com/yourusername/project1): Brief description of the project.
-- [Project 2](https://github.com/yourusername/project2): Brief description of the project.
-- [Project 3](https://github.com/yourusername/project3): Brief description of the project.
+Here are some of the projects I've worked on:
 
-## My GitHub Stats
+- [Redis Mini Project](https://github.com/Vcvzgbzz/RedisMini-Project): [A recreation of some redis commands].
+- [Tic Tac Toe with AI](https://github.com/Vcvzgbzz/ticTacToeWithComputerAI): [A TicTacToe game I created with a basic AI for fun].
+- [Compiler](https://github.com/Vcvzgbzz/CatScript-Compilers-Project): [My Capstone Compiler].
 
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&count_private=true)
+## GitHub Stats
 
-## Recent Blog Posts
+[![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vcvzgbzz&show_icons=true&count_private=true)](https://github.com/Vcvzgbzz)
 
-- [Blog Post 1](https://yourblog.com/post1): Brief description.
-- [Blog Post 2](https://yourblog.com/post2): Brief description.
 
 ## Let's Connect
 
-- 💼 Looking for my resume? View it [here](https://yourresume.com).
-- 📧 You can reach me via email at [your@email.com].
+I'm always open to connecting with like-minded professionals. If you'd like to collaborate or discuss [Your Field], please feel free to reach out:
 
-Feel free to explore my projects, and don't hesitate to get in touch if you'd like to collaborate or have a chat. Thanks for stopping by!
+- 📧 Email: [jadeyn.fincher@gmail.com]
+
+Thank you for visiting my GitHub profile. Let's build great things together!
