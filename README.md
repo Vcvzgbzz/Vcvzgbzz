@@ -1,6 +1,6 @@
 # Hello, I'm Jadeyn Fincher 👋
 
-I'm a Frontend Developer with a passion for being the best in what I do. Welcome to my GitHub profile.
+I'm a front-end developer with a passion for being the best in what I do. Welcome to my GitHub profile.
 
 ## About Me
 
@@ -11,7 +11,7 @@ I'm a Frontend Developer with a passion for being the best in what I do. Welcome
 ## Expertise
 
 - 💻 Proficient in a range of programming languages including Typescript, Java, and Python.
-- 🛠️ Experienced with Ract.JS, Yarn, npm, and MobX.
+- 🛠️ Experienced with React.JS, Yarn, npm, and MobX.
 
 ## Projects
 
