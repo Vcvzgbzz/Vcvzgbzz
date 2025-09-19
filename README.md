@@ -2,6 +2,8 @@
 
 I'm a front-end developer with a passion for being the best in what I do. Welcome to my GitHub profile.
 
+Note: A bunch of my recent work is in a private work org, so this does not reflect my recent projects.
+
 ## About Me
 
 - 🔬 I'm dedicated to continuous learning and exploration, particularly in the field of different software development technologies.
