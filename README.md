@@ -40,11 +40,12 @@ The source for these is private for now. Some of it may open up.
 `TypeScript` · `React` · `Node` · `Hono` · `Python` · `Java` · `SQLite` ·
 `Linux` · `Proxmox` · `ZFS` · `LXC`
 
-## Public repositories
+## Older public work
+
+School era projects, kept up because the code is still readable. Recent work
+lives in the projects above.
 
 - [CatScript Compiler](https://github.com/Vcvzgbzz/CatScript-Compilers-Project):
-  my capstone, a compiler for a small language.
+  my capstone. A compiler for a small language, lexer through code generation.
 - [Redis Mini](https://github.com/Vcvzgbzz/RedisMini-Project): a from scratch
   reimplementation of a slice of the Redis command set.
-- [Tic Tac Toe with AI](https://github.com/Vcvzgbzz/ticTacToeWithComputerAI):
-  an early one, built for fun.
