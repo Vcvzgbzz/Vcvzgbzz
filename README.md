@@ -1,47 +1,57 @@
-# Hello, I'm Jadeyn Fincher 👋
+# Jadeyn Fincher
 
-Most of my professional
-work is React and TypeScript inside what's public here is
-personal projects, which is also where I get to build the parts of the stack I
-don't touch at work.
+I build things I want to understand by running them myself.
 
-## What I do professionally
+Day job is React and TypeScript: customer-facing analytics and reporting over
+real-time data. Everything below is what I do with the rest of my time.
 
-- Front-end development: TypeScript, React, MobX, and the tooling around them.
-- [LinkedIn](https://www.linkedin.com/in/jadeyn-fincher).
+[jadeynfincher.com](https://jadeynfincher.com) · [LinkedIn](https://www.linkedin.com/in/jadeyn-fincher)
 
-## What I build for myself
+## [Vechy's Room](https://ai.vechkabaz.com)
 
-### [Vechy's Room](https://ai.vechkabaz.com)
+My AI platform: chat, image, and video generation from models running on my own
+GPUs, open to anyone who signs up. It's a real multi-user app, not a demo, so
+it has the parts that come with that: accounts, an API other tools build
+against, a content policy and moderation, and separate dev and prod
+environments on Kubernetes.
 
-A self hosted image and video generation app, live and open to sign ups. React,
-Hono and SQLite on the front, a GPU doing diffusion work on the back. Multi user
-with per account isolation, a content safety pipeline built on local LLM
-sidecars, a community feed, and an API key surface that other clients build
-against.
+Most of what I've learned about running software comes from keeping this
+thing up. Uptime is public at [status.vechkabaz.com](https://status.vechkabaz.com).
 
-### Everything underneath it
+## [hearth](https://github.com/Vcvzgbzz/hearth)
 
-All of this runs on a homelab I maintain and keep online.
+One GPU fits one model at a time. Two clients asking for different models make
+it thrash, each one evicting the other's weights. hearth sits in front of the
+inference server and decides who goes next. It has priority lanes, it ages
+waiting jobs so nothing starves, and it prefers whatever model is already
+loaded. If a friend has spare capacity, it can send work to their box instead.
 
-- A Discord bot driving the app through that same public API surface.
-- GPU inference tuning on Intel Arc: quantised diffusion models, PyTorch XPU.
-- The infrastructure itself. Proxmox, LXC, ZFS, Cloudflare Tunnel, CrowdSec,
-  monitoring, and backups I actually restore test.
+It speaks the OpenAI API, so switching to it is a URL change. It started as a
+hack inside Vechy's Room and is now on npm as
+[`@vcvzgbzz/hearth`](https://www.npmjs.com/package/@vcvzgbzz/hearth).
 
-The source for these is private for now. Some of it may open up.
+## [Running a 27B model on an Arc Pro B70](https://github.com/Vcvzgbzz/b70-cookbook)
 
-## Tools I reach for
+The coding model behind Vechy's Room is Qwen3.8-27B on a single B70, served by
+vLLM on Intel XPU with MTP speculative decoding. The cookbook has the patches,
+launch flags, and eval scripts.
 
-`TypeScript` · `React` · `Node` · `Python` · `Java` · `SQLite` ·
-`Linux` · `Proxmox` · `ZFS` · `LXC`
+- **~142 tok/s on edits and ~106 on code**, single stream. The other public B70
+  numbers I found for this model were in the mid 80s.
+- Trimming the draft head's vocabulary to the tokens that actually show up in
+  code got +5% for free. Acceptance didn't move.
+- Profiling showed the GEMMs running at about 89% of the card's memory
+  bandwidth. There isn't much left there.
+- EvalPlus scored every 4-bit quant I tried as a tie. Comparing them token by
+  token against Q8_0 showed G128 drifting 1.7 to 1.9x more than G32, for about
+  11% more speed.
 
-## Older public work
+## Also
 
-School era projects, kept up because the code is still readable. Recent work
-lives in the projects above.
+- [pi-vechkabaz](https://github.com/Vcvzgbzz/pi-vechkabaz) and
+  [dsh-vechkabaz](https://github.com/Vcvzgbzz/dsh-vechkabaz): one-command setup
+  so anyone with a key can point the pi and DeepSeek Harness coding agents at my API.
+- Infrastructure: Proxmox, ZFS, Cloudflare Tunnel with CrowdSec at the edge,
+  Grafana metrics, and centralized logging.
 
-- [CatScript Compiler](https://github.com/Vcvzgbzz/CatScript-Compilers-Project):
-  my capstone. A compiler for a small language, lexer through code generation.
-- [Redis Mini](https://github.com/Vcvzgbzz/RedisMini-Project): a from scratch
-  reimplementation of a slice of the Redis command set.
+`TypeScript` · `React` · `MobX` · `Node` · `Python` · `Kubernetes` · `vLLM` · `Proxmox` · `ZFS`
